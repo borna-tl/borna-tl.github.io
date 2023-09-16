@@ -3,7 +3,7 @@
     top: 160px;
     right: 30px; 
     display: flex;
-    background-image: url('/images/bobross.png'); /* Replace with the path to your image */
+    background-image: url('/images/bobross.jpg'); /* Replace with the path to your image */
     background-size: cover; /* Adjust how the image covers the box */
     background-repeat: no-repeat; 
     /* background-color: rgba(255, 102, 0, 0.8); */
