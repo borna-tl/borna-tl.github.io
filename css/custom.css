@@ -1,0 +1,74 @@
+.container {
+  text-align: justify;
+}
+
+.email {
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.email:hover {
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.email:before {
+  content: '\2709 ';
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.underline_hover {
+	color: #2f2318;
+  position: relative;
+  text-decoration: none;
+}
+
+.underline_hover::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #d68213;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+.underline_hover:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+#quote-container {
+  position: fixed;
+  top: 20px; /* Adjust the distance from the top */
+  right: 20px; /* Adjust the distance from the right */
+}
+
+#quote-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #007bff; /* Change the background color to your preference */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: width 0.3s, height 0.3s;
+}
+
+#quote-circle:hover {
+  width: 200px; /* Adjust the expanded width */
+  height: 200px; /* Adjust the expanded height */
+}
+
+#quote-text {
+  color: #fff; /* Text color */
+  text-align: center;
+  display: none;
+}
