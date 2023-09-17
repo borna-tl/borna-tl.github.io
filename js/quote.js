@@ -1,4 +1,3 @@
-// Define an array of Bob Ross quotes
 const quotes = [
     "We don't make mistakes, just happy little accidents.",
     "Let's build a happy little cloud. Let's build some happy little trees.",
